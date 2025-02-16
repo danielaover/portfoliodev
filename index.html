@@ -172,25 +172,6 @@
         </div>
 </section>
 
-    <script>
-    document.querySelector("form").addEventListener("submit", function(event) {
-        // Previne o envio do formulário se algum campo obrigatório estiver vazio
-        let isValid = true;
-        document.querySelectorAll("input[required], textarea[required]").forEach(function(input) {
-            if (!input.value.trim()) {
-                isValid = false;
-                alert("Por favor, preencha todos os campos obrigatórios.");
-                event.preventDefault(); // Impede o envio
-            }
-        });
-
-        if (isValid) {
-            // Você pode adicionar qualquer outro comportamento aqui
-            console.log("Formulário válido, enviando...");
-        }
-    });
-</script>
-
 <script>
     function formatarTelefone(event) {
         let input = event.target;
