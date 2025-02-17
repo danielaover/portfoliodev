@@ -4,7 +4,7 @@
 
 Aqui encaminho o meu primeiro Portfólio feito com stye pra mobile, contato e meus projetos pessoais.
 
-[**Acesse o meu Portfólio aqui**](https://danielaover.github.io/portfoliodev/#home)
+[**Acesse o meu Portfólio aqui**](https://danielaover.github.io/portfoliodev)
 
 ![image](https://github.com/user-attachments/assets/cfa881c3-f1cf-4499-8a43-313d7205cfe3)
 
