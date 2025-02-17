@@ -1,7 +1,5 @@
 # MEU PORTFÓLIO
 
-##
-
 Aqui encaminho o meu primeiro Portfólio feito com stye pra mobile, contato e meus projetos pessoais.
 ##
 
