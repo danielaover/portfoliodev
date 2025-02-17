@@ -1,7 +1,5 @@
 # MEU PORTFÓLIO
 
-Aqui encaminho o meu primeiro Portfólio feito com stye pra mobile, contato e meus projetos pessoais.
-
 ![image](https://github.com/user-attachments/assets/cfa881c3-f1cf-4499-8a43-313d7205cfe3)
 
 ![image](https://github.com/user-attachments/assets/63810c22-fc78-4bb5-9f4c-dbf64246f967)
