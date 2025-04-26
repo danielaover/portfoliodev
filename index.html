@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Personal Portfolio Website Design</title>
+    <title>portfolio website wesign</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
    
 
@@ -15,37 +15,38 @@
 <body>
     
 <header class="header">
-    <a href="#" class="logo">Portfolio</a>
+    <a href="#" class="logo">portfolio</a>
     <i class='bx bx-menu' id="menu-icon"></i>
     <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Work</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a data-i18n="home" href="#home" class="active">home</a>
+        <a data-i18n="about" href="#about">about</a>
+        <a data-i18n="work" href="#services">work</a>
+        <a data-i18n="portfolio" href="#portfolio">portfolio</a>
+        <a data-i18n="contact" href="#contact">contact</a>
     </nav>
+    <button id="toggle-lang" class="btn" style="margin-left: 10px;">EN</button>
 </header>
 
 
 
 <section class="home" id="home">
     <div class="home-content">
-        <h3>Hello, It's me</h3>
-        <h1>Daniela Rosa</h1>
-        <h3>And I'm a <span class="multiple-text"</span></h3>
-        <p>Sou desenvolvedora em constante aprendizado, buscando aprimorar minhas habilidades e colaborar em equipe para criar soluções eficientes.</p>
+        <h3 data-i18n="greeting">olá, sou a</h3>
+        <h1 >Daniela Rosa,</h1>
+        <h3><span data-i18n="and_i_am" style="color: #fff;">e eu sou</span> <span class="multiple-text"></span></h3>
+        <p data-i18n="paragraph1">sou desenvolvedora em constante aprendizado,</p>
+        <p data-i18n="paragraph2">buscando aprimorar minhas habilidades e colaborar em equipe para criar soluções eficientes.</p>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/danielarosadevp/" target="_blank"><i class='bx bxl-linkedin'></i></a>
             <a href="https://github.com/danielaover" target="_blank"><i class='bx bxl-github' ></i></a>
-            <a href="https://www.instagram.com/danielaover/" target="_blank"><i class='bx bxl-instagram' ></i></a>
         </div>
-        <a href="./assets/curriculum.pdf" download="curriculum.pdf" class="btn">Download CV</a>
+        <a href="./assets/curriculum.pdf" download="curriculum.pdf" class="btn" data-i18n="downloadCV">download CV</a>
     </div>
 
     
 
     <div class="home-img">
-        <img src="./assets/000.png" alt="">
+        <img src="./assets/photo.png" alt="">
     </div>
 </section>
 
@@ -53,58 +54,55 @@
 
 <section class="about" id="about">
     <div class="about-img">
-        <img src="./assets/001.png" alt="">
+        <img src="./assets/photo1.png" alt="">
     </div>
 
     <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Frontend Developer!</h3>
-        <p>Sou formada em Psicologia e Pedagogia, com especialização em Saúde Mental e Psicopedagogia, e atualmente estou cursando Análise e Desenvolvimento de Sistemas na UNISANTOS. Minha trajetória profissional começou na área da saúde e educação, mas desenvolvi um grande interesse por tecnologia, o que me levou a explorar e aprofundar meus conhecimentos em desenvolvimento de software.
-            Atualmente, estou focada em projetos pessoais voltados para o desenvolvimento front-end, ao mesmo tempo em que aprendo mais sobre back-end para ampliar minhas habilidades full stack. Tive a oportunidade de estagiar no INSS de Cubatão, além de participar da Academia de Talentos da L3 IT IS ABOUT PEOPLE por três meses, onde trabalhei com tecnologias da plataforma Microsoft, desenvolvendo um projeto inovador.</p>
-            <a href="#" class="btn">Read more</a>
+        <h2 data-i18n="aboutme2" class="heading">sobre <span>mim</span></h2>
+        <p data-i18n="aboutme">atualmente estou cursando Análise e Desenvolvimento de Sistemas na UNISANTOS, cursando Dev FullStack no +praTI e cursando Front-End na GrowDev. minha trajetória profissional começou na área da saúde e educação, mas desenvolvi um grande interesse por tecnologia, o que me levou a explorar e aprofundar meus conhecimentos em desenvolvimento de software. Meus projetos pessoais voltados para o desenvolvimento front-end, ao mesmo tempo em que aprendo mais sobre back-end para ampliar minhas habilidades FullStack. Tive a oportunidade de estagiar no INSS de Cubatão, além de participar da Academia de Talentos da L3 IT IS ABOUT PEOPLE por três meses, onde trabalhei com tecnologias da plataforma Microsoft, desenvolvendo um projeto inovador.</p>
+            <a data-i18n="read" href="#" class="btn">read more</a>
         </div>
 </section>
 
     <section class="services" id="services">
-        <h2 class="heading"><span>Work</span></h2>
+        <h2 data-i18n="work2" class="heading"><span>work</span></h2>
 
         <div class="services-container">
             <div class="services-box">
             <i class='bx bx-code-alt'></i>
-            <h3>Web Development</h3>
-            <p>HTML, CSS, Javascript, Typescript, APIs RESTful, React.js, Tailwind, UI/UX, Git e GitHub. 
-            <b>Soft Skills:</b> Aprendizado Contínuo, Empatia, Resolução de Problemas, Adaptabilidade, Trabalho em Equipe, Organização e Gestão do Tempo. </p>
-            <a href="#" class="btn"> Read more</a>
+            <h3 data-i18n="webdev">web development</h3>
+            <p data-i18n="soft">HTML, CSS, Javascript, React.js, APIs RESTful, SQL, UI/UX, Git e GitHub. 
+            <b>soft skills:</b> Aprendizado Contínuo, Empatia, Resolução de Problemas, Adaptabilidade, Trabalho em Equipe, Organização e Gestão do Tempo. </p>
+            <a data-i18n="read" href="#" class="btn"> read more</a>
             </div>
             
             <div class="services-box">
                 <i class='bx bxl-microsoft'></i>
-                <h3>Low-Code</h3>
-                <p>Microsoft Platform: Power Apps, Power Pages, Power Automate, Dynamics 365 e Scrum.
+                <h3>low-code</h3>
+                <p data-i18n="microsoft">Microsoft Platform: Power Apps, Power Pages, Power Automate, Dynamics 365 e Scrum.
                     Habilidade em integração de dados e criação de fluxos eficientes para melhoria da produtividade..</p>
-                <a href="#" class="btn"> Read more</a>
+                <a data-i18n="read" href="#" class="btn"> read more</a>
                 </div>
 
                 <div class="services-box">
                 <i class='bx bx-universal-access'></i>
-                <h3>Psicóloga e Pedagoga</h3>
-                <p>Psicóloga com experiência em Saúde Mental, atendendo crianças, jovens e adultos.
+                <h3 data-i18n="psipeda">Psicóloga e Pedagoga</h3>
+                <p data-i18n="psy">Psicóloga com experiência em Saúde Mental, atendendo crianças, jovens e adultos.
                     Atuação como Pedagoga auxiliar, trabalhando com crianças de inclusão.
                     Foco na escuta ativa, acolhimento e promoção do bem-estar.</p>
-                <a href="#" class="btn"> Read more</a>
+                <a data-i18n="read" href="#" class="btn"> read more</a>
                 </div>
         </div>
     </section>
 
 <section class="portfolio" id="portfolio">
-    <h2 class="heading"> Lastest <span>Project</span></h2>
+    <h2 data-i18n="lastproje" class="heading"> lastest <span>project</span></h2>
 
     <div class="portfolio-container">
         <div class="portfolio-box">
             <img src="./assets/kimetsu.png" alt="">
             <div class="portfolio-layer">
-                <h4>WebSite Cinema</h4>
-                <p>Com a finalidade de desenvolver um site de cinema com fotos ilustrativas, contato, foram utilizados: HTML e CSS</p>
+                <h4>website movie</h4>
                 <a href="https://danielaover.github.io/Site-de-Cinema/" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
@@ -112,19 +110,17 @@
 
         
         <div class="portfolio-box">
-            <img src="./assets/spotify.png" alt="">
+            <img src="./assets/nikel.png" alt="">
             <div class="portfolio-layer">
-                <h4>Clone Spotify</h4>
-                <p>Projeto desenvolvido durante a semana de imersão Front-End da Alura. O objetivo principal era desenvolver um clone do Spotify.</p>
-                <a href="https://danielaover.github.io/Spotify-Alura/" target="_blank"><i class='bx bx-link-external'></i></a>
+                <h4>nikel growdev</h4>               
+                <a href="https://danielaover.github.io/Nikel_Growdev/" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
 
         <div class="portfolio-box">
             <img src="./assets/p3.png" alt="">
             <div class="portfolio-layer">
-                <h4>Formulário Cadastro</h4>
-                <p>CADASTRO DE PESSOAS FEITA AO PEDIDO DA EMPRESA MODALGR O intuito desse formulário é conter os dados principais de um envio de dados, tais eles: • Nome Completo • Nascimento • CPF • CEP • Email</p>
+                <h4>formulário cadastro</h4>
                 <a href="https://danielaover.github.io/Cadastro_Formulario_ModalGR/" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
@@ -132,8 +128,7 @@
         <div class="portfolio-box">
             <img src="./assets/p2.png" alt="">
             <div class="portfolio-layer">
-                <h4>Website Stars Wars</h4>
-                <p>Com a finalidade de desenvolver um site de cinema com fotos ilustrativas, contato, foram utilizados: HTML, CSS e Javascript.</p>
+                <h4>website stars wars</h4>
                 <a href="https://danielaover.github.io/Start-Wars-Personagens/" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
@@ -141,8 +136,7 @@
         <div class="portfolio-box">
             <img src="./assets/p4.png" alt="">
             <div class="portfolio-layer">
-                <h4>Previsão do Tempo</h4>
-                <p>O intuito desse projeto é que o usuário possa ter uma experiência em saber o clima de cada país, cidade ou estado, buscando assim pela API OpenWeather.</p>
+                <h4>previsão do tempo</h4>
                 <a href="https://danielaover.github.io/Previsao_do_Tempo/" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
@@ -152,7 +146,7 @@
 </section>
 
 <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
+    <h2 data-i18n="contactMe" class="heading">contact <span>me!</span></h2>
 
     <form action="https://formsubmit.co/danielarosa.dev@outlook.com" method="POST">
         <div class="input-box">
@@ -167,7 +161,7 @@
                     <input type="text" name="assunto" placeholder="Subject" required>  
                 </div>
                 <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
+                <input data-i18n="send_message"  type="submit" value="send message" class="btn" >
             </form>
         </div>
 </section>
@@ -222,7 +216,110 @@
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 <script src="./script.js"></script>
+<script>
+    const translations = {
+      pt: {
+        greeting: "olá, sou a",
+        role: "e eu sou",
+        paragraph1: "sou desenvolvedora em constante aprendizado,",
+        paragraph2: "buscando aprimorar minhas habilidades e colaborar em equipe para criar soluções eficientes.",
+        downloadCV: "download CV",
+        home: "início",
+        about: "sobre",
+        work: "trabalho",
+        portfolio: "portfólio",
+        contact: "contato",
+        contactMe: "fale comigo!",
+        fullName: "Nome Completo",
+        email: "Endereço de Email",
+        mobile: "Celular",
+        subject: "Assunto",
+        message: "Sua Mensagem",
+        sendMessage: "Enviar Mensagem",
+        aboutme: "atualmente estou cursando Análise e Desenvolvimento de Sistemas na UNISANTOS, cursando Dev FullStack no +praTI e cursando Front-End na GrowDev. minha trajetória profissional começou na área da saúde e educação, mas desenvolvi um grande interesse por tecnologia, o que me levou a explorar e aprofundar meus conhecimentos em desenvolvimento de software. Meus projetos pessoais voltados para o desenvolvimento front-end, ao mesmo tempo em que aprendo mais sobre back-end para ampliar minhas habilidades FullStack. Tive a oportunidade de estagiar no INSS de Cubatão, além de participar da Academia de Talentos da L3 IT IS ABOUT PEOPLE por três meses, onde trabalhei com tecnologias da plataforma Microsoft, desenvolvendo um projeto inovador.",
+        aboutme2: "sobre mim",
+        work2: "trabalho",
+        lastproje: "últimos projetos",
+        soft: "HTML, CSS, Javascript, React.js, APIs RESTful, SQL, UI/UX, Git e GitHub. soft skills: aprendizado contínuo, empatia, resolução de problemas, adaptabilidade, trabalho em equipe, organização e gestão do tempo.",
+        read: "leia mais",
+        webdev: "desenvolvimento web",
+        microsoft: "Microsoft Platform: Power Apps, Power Pages, Power Automate, Dynamics 365 e Scrum. habilidade em integração de dados e criação de fluxos eficientes para melhoria da produtividade..",
+        psy: "psicóloga com experiência em Saúde Mental, atendendo crianças, jovens e adultos. atuação como Pedagoga auxiliar, trabalhando com crianças de inclusão. foco na escuta ativa, acolhimento e promoção do bem-estar.",
+        psipeda: "psicóloga e pedadoga",
+        and_i_am: "e eu sou",
+        send_message: "enviar mensagem"
+    },
+      en: {
+        greeting: "hello, i am",
+        role: "and i'm a",
+        paragraph1: "i'm a developer in constant learning,",
+        paragraph2: "looking to improve my skills and collaborate in teams to create efficient solutions.",
+        downloadCV: "download CV",
+        home: "home",
+        about: "about",
+        work: "work",
+        portfolio: "portfolio",
+        contact: "contact",
+        contactMe: "contact Me!",
+        fullName: "full Name",
+        email: "email address",
+        mobile: "mobile",
+        subject: "subject",
+        message: "your Message",
+        sendMessage: "send Message",
+        aboutme: "i am currently studying Systems Analysis and Development at UNISANTOS, taking a FullStack Development course at +praTI, and pursuing Front-End studies at GrowDev. my professional journey began in the healthcare and education fields, but I developed a strong interest in technology, which led me to explore and deepen my knowledge in software development. My personal projects are focused on front-end development, while I simultaneously learn more about back-end to expand my FullStack skills. I had the opportunity to intern at INSS in Cubatão, in addition to participating in the L3 IT IS ABOUT PEOPLE Talent Academy for three months, where i worked with Microsoft platform technologies, developing an innovative project.",
+        aboutme2: "about me",
+        work2: "work",
+        lastproje: "lastest project",
+        soft: "HTML, CSS, Javascript, React.js, APIs RESTful, SQL, UI/UX, Git and GitHub. soft skills: continuous learning, empathy, problem Solving, adaptability, teamwork, organization and time management.",
+        read: "read more",
+        webdev: "web development",
+        microsoft: "Microsoft Platform: Power Apps, Power Pages, Power Automate, Dynamics 365, and Scrum. skilled in data integration and creating efficient flows to improve productivity.",
+        psy: "psychologist with experience in mental health, providing care for children, adolescents, and adults. Worked as an assistant Pedagogue, supporting inclusive education for children. Focused on active listening, empathy, and promoting well-being.",
+        psipeda: "psychologist and pedagogue",
+        and_i_am: "and i am",
+        send_message: "send message"
+    }
+    };
+    </script>
+    <script>
+        const toggleLangBtn = document.getElementById("toggle-lang");
+    const userLang = localStorage.getItem("lang") || "pt";
 
+    function translatePage(lang) {
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+            const key = el.getAttribute("data-i18n");
+            if (translations[lang][key]) el.textContent = translations[lang][key];
+        });
+
+        // Adicione esta parte para traduzir o atributo 'value'
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+            const key = el.getAttribute("data-i18n");
+            if (translations[lang][key] && el.tagName === 'INPUT' && el.type === 'submit') {
+                el.value = translations[lang][key];
+            } else if (translations[lang][key] && el.tagName === 'BUTTON') {
+                el.textContent = translations[lang][key]; // Se você tiver botões com texto traduzível
+            }
+        });
+
+        // Mantenha a lógica para placeholders, se você estiver usando
+        document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+            const key = el.getAttribute("data-i18n-placeholder");
+            if (translations[lang][key]) el.placeholder = translations[lang][key];
+        });
+
+        toggleLangBtn.textContent = lang === "pt" ? "EN" : "PT";
+        localStorage.setItem("lang", lang);
+    }
+
+    toggleLangBtn.addEventListener("click", () => {
+        const newLang = localStorage.getItem("lang") === "pt" ? "en" : "pt";
+        translatePage(newLang);
+    });
+
+    translatePage(userLang);
+</script>
+      
 </body>
 </html>
 

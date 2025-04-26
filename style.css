@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
+    --bg-color: #15151b;
+    --second-bg-color: #39373a;
+    --text-color: #f1f3f3;
+    --main-color: rgb(231, 87, 43);
 }
 
 html {
@@ -96,6 +96,8 @@ section {
 span {
     color: var(--main-color);
 }
+
+
 
 .home-img img {
     width: 27vw;
@@ -523,4 +525,9 @@ margin-top: 4rem;
     text-align: center;
     margin-top: 2rem;
   }
+
+  .hidden {
+    display: none;
+  }
+
 }
